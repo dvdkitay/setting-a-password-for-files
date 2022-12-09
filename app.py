@@ -18,6 +18,7 @@ from lib.config import url_web_site
 
 from datetime import date
 
+# Конфигурация приложения
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '187da333a1304a91b6dfec86b3abe1a0!'
 
