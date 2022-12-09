@@ -1,0 +1,13 @@
+[Unit]
+    Description=Web service
+    After=network.target
+
+ [Service]
+    User=root
+    Group=root
+    WorkingDirectory=/root/setting-a-password-for-files
+    ExecStart=/usr/bin/python3 /root/setting-a-password-for-files/app.py
+    Restart=on-failure
+    RestartSec=1s
+[Install]
+    WantedBy=multi-user.target
