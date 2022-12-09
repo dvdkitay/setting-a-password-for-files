@@ -1,3 +1,10 @@
+<div align="left">
+<img src="https://img.shields.io/github/languages/code-size/dvdkitay/setting-a-password-for-files" />
+<img src="https://img.shields.io/github/languages/top/dvdkitay/setting-a-password-for-files" />
+<div>
+
+![Иллюстрация к проекту](https://raw.githubusercontent.com/dvdkitay/setting-a-password-for-files/master/static/img/screen.png)
+
 ## Описание
 
 Приложение для предоставления ссылки на файлы пользователям с доступом по паролю. Под каждый файл есть возможность установить свой пароль. Генерируется одна ссылка для всех файлов с уникальным адресом. В Административной панели можно управлять ссылками. 
